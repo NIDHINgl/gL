@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>	
+	<h1>Registration Form</h1>
+    <form>
+     	<fieldset>
+     		<legend>Personal Details</legend>
+    	<label>Name</label>
+    
+    	<input type="text" name="" value="" required placeholder="Name" maxlength="25"><br>
+    
+    	<label>Email</label>
+ 
+    	<input type="email" name="email" value="example@gmail.com" required placeholder="Email" autofocus="Email"><br>
+    <label>Password</label>
+    	<input type="password" name="Password" value=""required placeholder="Password" minlength="6">
+    </fieldset>
+    	<label>Profession</label>
+    	<select>
+    		<option>Student</option>
+    		<option>Employee</option>
+    		<option selected="">Freelancer</option>
+    	</select><br>
+    	<label>Num of Tickets</label>
+    	<input type="radio" name="tickets">1-Ticket
+    	<input type="radio" name="tickets" checked="2-Ticket">2-Ticket
+    	<input type="radio" name="tickets">3-Ticket<br>   
+    	<label>D.O.B</label>
+    	<input type="date" name="" min="01-01-1980" max="31-07-2018"required><br>
+    	<label>Online Payment</label>
+    	<input type="checkbox" name="">Debit Card
+    	<input type="checkbox" name="">Paytm
+    	<input type="checkbox" name=""><br>
+ 
+    	<label>Notes</label>
+    	<textarea placeholder="comments"></textarea><br>
+    
+    	<button type="submit" name="submit">Submit</button>
+        <input type="reset" name="">
+ </form>
+   
+</body>
+</html>

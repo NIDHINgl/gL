@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Details</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style type="text/css">
+		.main
+		{
+            border:1px solid #f5f5f5;
+			height: auto;
+			width: 42%;
+            overflow: hidden;
+            margin: 150px auto;
+		}
+		.title
+		{
+			min-width: 100%;
+			height: 50px;
+			
+		}
+		span
+		{
+			font-weight: bold;
+		}
+		li
+		{
+			float: left;
+			list-style-type: none;
+			margin: 0;
+		}
+		label li
+		{
+			padding: 0 1px;
+
+		}
+        .prev li
+        {
+                padding: 9px 7px;
+    position: relative;
+    bottom: 0px;
+    right: 15px;
+        }
+        table
+          {
+            border-collapse: collapse;
+            margin: 0 auto;
+          }
+          .sh
+          {
+            position: relative;
+            left: -26px;
+            padding: 0 1px;
+          }
+	</style>
+</head>
+<body>
+     <div class="main">
+     	
+     		<ul>
+     		<li class="sh">Show<li>
+     		<li class="sh"><select>
+     			<option>5</option>
+     			<option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+     		</select></li>
+     		<li class="sh">entries</li>
+ <li><h1 style="font-weight:normal;font-family:sans-serif;text-align:center;margin: 0;margin-top: -9px;margin-left: -14px;">Customer<span>Details</span></h1></li>
+     		<li style="margin-right: -94px;
+position: relative;
+right: -18px;"><input type="search" name="" placeholder="search" style="position: relative;
+right: 6px;background-color: white;border:none; border-bottom: 1px solid grey;"></li>
+     	</ul>
+     	<div style="clear: both;">
+     		<table border="1px solid #c0bcbc">
+     			<tr>
+     			<th>#</th>
+     			<th>Name</th>
+     			<th>Address</th>
+     			<th>City</th>
+     			<th>Pin Code</th>
+     			<th>Country</th>
+     			<th>Actions</th>
+     			</tr>
+     			<tr>
+     				<td>1</td>
+     				<td>Thomas Hardy</td>
+     				<td>89 Chiaroscuro Rd.</td>
+     				<td>Portland</td>
+     				<td>97219</td>
+     				<td>USA</td>
+                    <td><i class="material-icons" style="font-size:21px;color:#03a9f4">visibility</i><i class="material-icons" style="font-size:19px;color: #ffc207;">create</i><i class="material-icons" style="font-size:19px;color:#e34724;">delete</i></td>
+                </tr>
+                    <tr>
+                    	<td>2</td>
+                    	<td>Maria Anders</td>
+                    	<td>Obere Str. 57</td>
+                    	<td>12209</td>
+                    	<td>Berlin</td>
+                    	<td>Germany</td>
+                    	<td><i class="material-icons" style="font-size:21px;color:#03a9f4">visibility</i><i class="material-icons" style="font-size:19px;color: #ffc207;">create</i><i class="material-icons" style="font-size:19px;color:#e34724;">delete</i></td>
+                    </tr>
+                    <tr>
+                    	<td>3</td>
+                    	<td>Fran Wilson</td>
+                    	<td>C/Araquil,67</td>
+                    	<td>Madrid</td>
+                    	<td>28023</td>
+                    	<td>Spain</td>
+                    	<td><i class="material-icons" style="font-size:21px;color:#03a9f4">visibility</i><i class="material-icons" style="font-size:19px;color: #ffc207;">create</i><i class="material-icons" style="font-size:19px;color:#e34724;">delete</i></td>
+                    </tr>
+                    <tr>
+                    	<td>4</td>
+                    	<td>Domanique Perrier</td>
+                    	<td>25.rue Lauriston</td>
+                    	<td>Paris</td>
+                    	<td>75016</td>
+                    	<td>France</td>
+                    	<td><i class="material-icons" style="font-size:21px;color:#03a9f4">visibility</i><i class="material-icons" style="font-size:19px;color: #ffc207;">create</i><i class="material-icons" style="font-size:19px;color:#e34724;">delete</i></td>
+                    </tr>
+     			<tr>
+     				<td>5</td>
+     				<td>Martin Blank</td>
+     				<td>Via Monte Bianco 34</td>
+     				<td>Turin</td>
+     				<td>10100</td>
+     				<td>Italy</td>
+     				<td><i class="material-icons" style="font-size:21px;color:#03a9f4">visibility</i><i class="material-icons" style="font-size:19px;color: #ffc207;">create</i><i class="material-icons" style="font-size:19px;color:#e34724;">delete</i></td>
+     			</tr>
+     		</table>
+     	</div>
+     	<div class="prev">
+     		<label style="position: relative;
+bottom: -14px;
+left: 15px">Showing<span>5</span>out of <span>25</span>entities</label>
+     		<label style="float: right;">
+               
+                    <li>Previous</li>
+                 	<li>1</li>
+                 	<li>2</li>
+                 	<li style="border-radius: 50%;
+background-color: #4ddff0;">3</li>
+                 	<li>4</li>
+                 	<li>5</li>
+                 
+     		</label>
+     	</div>
+     </div>
+</body>
+</html>
